@@ -1,10 +1,10 @@
 const BLOG = {
-  title: '银河美术馆',
+  title: 'Gallery of Galaxy',
   author: 'Beautyyu言醴',
   email: 'beautyyuyanli@gmail.com',
-  link: 'https://blog-zh.beautyyu.one/',
-  description: '我们常常高估一天能做成的事，却往往低估一年能做的事。',
-  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  link: 'https://blog.beautyyu.one/',
+  description: 'We always over-estimate what we can do in one day, and underestimate what we can do in one year.',
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: '',
   seo: {
-    keywords: ['博客', '网页', 'Notion'],
+    keywords: ['博客', 'Notion', 'blog', 'beautyyu', 'yanli', '言醴'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
