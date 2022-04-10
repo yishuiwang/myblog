@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Beautyyu言醴',
   email: 'beautyyuyanli@gmail.com',
   link: 'https://blog.beautyyu.one/',
-  description: 'We always over-estimate what we can do in one day, and underestimate what we can do in one year.',
+  description: 'blog of Beautyyu Yanli',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
