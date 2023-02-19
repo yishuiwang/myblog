@@ -26,7 +26,7 @@ const BLOG = {
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
-    provider: 'ackee', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
       tracker: 'https://my-ackee-1.vercel.app/tracker.js', // e.g 'https://ackee.craigary.net/tracker.js'
       dataAckeeServer: 'https://my-ackee-1.vercel.app', // e.g https://ackee.craigary.net , don't end with a slash
@@ -40,7 +40,7 @@ const BLOG = {
     // support provider: gitalk, utterances, cusdis
     provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'BeautyyuYanli/gitalk-for-blog', // The repository of store comments
+      repo: 'gitalk-for-blog', // The repository of store comments
       owner: 'BeautyyuYanli',
       admin: ['BeautyyuYanli'],
       clientID: '43041894b514b0df2f30',
