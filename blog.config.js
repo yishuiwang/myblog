@@ -38,13 +38,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'gitalk', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'myblog', // The repository of store comments
-      owner: 'yishuiwang',
-      admin: ['yishuiwang'],
-      clientID: 'bc45760e98d9338003d8',
-      clientSecret: '3e2355cb01210816715f5b31339c665ac10bb4ef',
+      repo: '', // The repository of store comments
+      owner: '',
+      admin: [],
+      clientID: '',
+      clientSecret: '',
       distractionFreeMode: false
     },
     utterancesConfig: {
