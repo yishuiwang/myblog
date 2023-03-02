@@ -1,9 +1,9 @@
 const BLOG = {
-  title: '银河美术馆 Gallery of Galaxy',
-  author: 'Beautyyu言醴',
-  email: 'beautyyuyanli@gmail.com',
-  link: 'https://blog.beautyyu.one/',
-  description: 'Beautyyu言醴\'s Blog',
+  title: 'Gallery',
+  author: 'Scruffy',
+  email: 'yishuiwang163@gmail.com',
+  link: 'blog.sbsz.live',
+  description: 'You See My Blog',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: '',
   seo: {
-    keywords: ['博客', 'Notion', 'blog', 'beautyyu', 'yanli', '言醴'],
+    keywords: ['博客', 'Notion', 'blog', 'beautyyu', 'Scruffy', 'sbsz'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
